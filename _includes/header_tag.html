@@ -1,0 +1,12 @@
+<header class="main-header tag-head no-cover">
+    <nav class="main-nav overlay clearfix">
+        <a class="back-button icon-arrow-left" href="/">Home</a>
+        <a class="subscribe-button icon-feed" href="/feed.xml">Subscribe</a>
+    </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">{{ page.tag }}</a>
+            <h1 class="page-description">A {% assign tag_count = page.tag %}{% for tag in tag_count %}{{ site.tags[tag].size }}{% endfor %}{% assign tag_count = nil %}-post collection</a>
+        </div>
+    </div>
+</header>

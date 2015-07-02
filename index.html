@@ -1,26 +1,21 @@
+---
+layout: default
+---
 
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>Alexvijo.GitHub.io by alexvijo</title>
-  </head>
+{% for post in paginator.posts %}
+    {% include post_list.html %}
+{% endfor %}
 
-  <body>
-    <div id="container">
-      <div class="inner">
-
-        <header>
-          <h1>Alexvijo.GitHub.io</h1>
-          <h2>Personal web blog</h2>
-
-  </body>
-</html>
-
+<nav class="pagination" role="navigation">
+    {% if paginator.next_page %}
+        <a class="older-posts" href="/page/{{ paginator.next_page }}">Older Posts &rarr;</a>
+    {% endif %}
+    <span class="page-number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.previous_page %} 
+        {% if paginator.page == 2 %}
+            <a class="newer-posts" href="/">&larr; Newer Posts</a>
+        {% else %}
+            <a class="newer-posts" href="/page/{{ paginator.previous_page }}">&larr; Newer Posts</a>
+        {% endif %}
+    {% endif %}
+</nav>

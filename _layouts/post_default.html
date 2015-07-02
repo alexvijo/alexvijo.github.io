@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="post-template">
+
+    {% include header_post.html %}
+
+    <main {% if page.image.feature %}id="content" {% endif %}class="content" role="main">
+        {{ content }}
+    </main>
+
+    {% include footer.html %}
+
+    {% include scripts.html %}
+
+  </body>
+
+</html>

@@ -1,0 +1,22 @@
+<header class="main-header" 
+        {% if site.cover %} 
+           style="background-image: url(/assets/img/{{ site.cover }})"
+        {% else %} 
+            no-cover 
+        {% endif %}
+        >
+
+    <nav class="main-nav overlay clearfix">
+        {% if site.logo %} <a class="blog-logo" href="{{ site.url }}"><img src="/assets/img/{{ site.logo }}" alt="Blog logo" /></a>{% endif %}
+        <a class="subscribe-button icon-feed" href="/feed.xml">Subscribe</a>
+    </nav>
+
+    <div class="vertical">
+        <div class="main-header-content inner">
+            {% if site.logo %} <a class="blog-logo" href="{{ site.url }}"><img src="/assets/img/{{ site.logo }}" alt="Blog logo" /></a>{% endif %}
+            <h1 class="page-title">{{ site.title }}</a>
+            <h1 class="page-description">{{ site.description }}</a>
+        </div>
+    </div>
+    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+</header>

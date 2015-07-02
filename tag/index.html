@@ -1,0 +1,20 @@
+---
+layout: default 
+title: Tag index
+---
+
+{% assign tags_list = site.tags %}  
+    {% if tags_list.first[0] == null %}
+        {% for tag in tags_list %} 
+            <article class="post">
+                <h3>Posts in series:</h3> <a href="/tag/{{ tag | replace:' ','-' | downcase }}/">{{ tag }}</a>
+            </article>
+        {% endfor %}
+        {% else %}
+        {% for tag in tags_list %} 
+            <article class="post">
+                <h3>Posts in series:</h3> <a href="/tag/{{ tag[0] | replace:' ','-' | downcase }}/">{{ tag[0] }}</a>
+            </article>
+        {% endfor %}
+    {% endif %}
+{% assign tags_list = nil %}

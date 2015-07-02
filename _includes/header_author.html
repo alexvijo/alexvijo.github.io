@@ -1,0 +1,20 @@
+<header class="main-header author-head no-cover">
+    <nav class="main-nav overlay clearfix">
+        <a class="back-button icon-arrow-left" href="/">Home</a>
+        <a class="subscribe-button icon-feed" href="/feed.xml">{{ site.author.name }}</a>
+    </nav>
+</header>
+
+<section class="author-profile inner">
+    <figure class="author-image">
+        <div class="img" style="background-image: url(/assets/img/profile.png)"><span class="hidden">{{ site.author.name }}</span></div>
+    </figure>
+
+    <h1 class="author-title">{{ site.author.name }}</h1>
+    <h2 class="author-bio">{{ site.author.bio }}</h2>
+    <div class="author-meta">
+        <span class="author-location"><i class="icon-location"></i> {{ site.author.location }}</span>
+        <span class="author-link"><i class="icon-link"></i><a href="{{ site.author.home }}"> {{ site.author.home }}</a></span>
+        <span class="author-stats"><i class="icon-stats"></i> {{ site.tags.size }} posts </span>
+    </div>
+</section>

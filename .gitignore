@@ -1,0 +1,7 @@
+# Globals
+.DS_Store
+*.swp
+
+# Jekyll specific
+_site
+.sass-cache
