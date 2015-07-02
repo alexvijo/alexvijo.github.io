@@ -3,32 +3,42 @@
 
   {% include head.html %}
 
-  <body class="home-template">
-
+  <body class="home-template nav-closed">
+  	
+  	<!-- casper -->
   	<div class="nav">
-	    <h3 class="nav-title">Menu</h3>
+	    <h3 class="nav-title"><img src="/assets/img/{{ site.logo }}" alt="Blog logo" /></h3>
 	    <a href="#" class="nav-close">
 	        <span class="hidden">Close</span>
 	    </a>
 	    <ul>
-	        {{#foreach navigation}}
-	            <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}" role="presentation"><a href="{{url absolute="true"}}">{{label}}</a></li>
-	        {{/foreach}}
+	        {% assign pages_list = site.pages %}
+	        {% assign group = 'navigation' %}
+
+	        {% for node in site.pages %}
+	          {% if group == null or group == node.group %}
+	            {% if page.url == node.url %}
+	              <li class="nav-current"><a href="{{node.url}}" class="active page-link">{{node.title}}</a></li>
+	            {% else %}
+	              <li><a class="page-link" href="{{node.url}}">{{node.title}}</a></li>
+	            {% endif %}
+	          {% endif %}
+	        {% endfor %}
+
+	        {% assign pages_list = nil %}
+	        {% assign group = nil %}
 	    </ul>
-	    <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">Subscribe</a>
 	</div>
 	<span class="nav-cover"></span>
 
-    {% include header.html %}
-
-    <main id="content" class="content" role="main">
-        {{ content }}
-    </main>
-
-    {% include footer.html %}
-
-    {% include scripts.html %}
+	<div class="site-wrapper">
+	    {% include header.html %}
+	    <main id="content" class="content" role="main">
+	        {{ content }}
+	    </main>
+	    {% include footer.html %}
+	    {% include scripts.html %}
+	</div>
 
   </body>
-
 </html>
