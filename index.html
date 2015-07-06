@@ -1,21 +1,27 @@
 ---
-layout: default
+layout: home
+title: inicio
 ---
 
-{% for post in paginator.posts %}
-    {% include post_list.html %}
-{% endfor %}
 
-<nav class="pagination" role="navigation">
-    {% if paginator.next_page %}
-        <a class="older-posts" href="/page/{{ paginator.next_page }}">Older Posts &rarr;</a>
-    {% endif %}
-    <span class="page-number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.previous_page %} 
-        {% if paginator.page == 2 %}
-            <a class="newer-posts" href="/">&larr; Newer Posts</a>
-        {% else %}
-            <a class="newer-posts" href="/page/{{ paginator.previous_page }}">&larr; Newer Posts</a>
-        {% endif %}
-    {% endif %}
-</nav>
+<article class="post">
+	<div class="services">
+	    <h2>
+	    	<span class="key">&#91;</span><i class="fa fa-cogs"></i><span class="key">&#93;</span> Desarrollo de aplicaciones web 
+	    </h2>
+	    <p>Desarrollo de aplicaciones web Desarrollo de aplicaciones web Desarrollo de aplicaciones web</p>
+	</div>
+
+	<div class="services">
+	    <h2>
+	    	<span class="key">&lt;</span><i class="fa fa-paint-brush"></i><span class="key">&gt;</span> Templating
+	    </h2>
+		<p>Maquetación de plantillas y temas (para CMS o Framework) a partir de tu diseño. Óptimo de . Adaptables a cualquier dipositivo (RWD) y navegador (CrossBrowser<sup>(1)</sup>). Estandares   Pixel perfect.</p>
+	</div>
+
+	<div class="services">
+		<h2>¿Por qué sensible?</h2>
+		<p>Porque mi manera de trabajar tiene en cuenta los valores, la atención por el detalle y la personalidad del cliente. El diseño visual de una página web no hace mejorar el contenido ni aumenta el número de visitas. Y ni mucho menos hace que vendas más, sin embargo puede causar el efecto contrario si éste no está bien creado.</p>
+	</div>
+
+</article>

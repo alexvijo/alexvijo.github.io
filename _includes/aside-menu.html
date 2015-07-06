@@ -1,0 +1,31 @@
+  	<!-- aside menu -->
+  	<div class="nav">
+  		<a href="/">
+
+  		</a>
+	    <h3 class="nav-title">
+	    	<a href="/"><img src="/assets/img/{{ site.logo }}" alt="Blog logo" /></a>
+	    </h3>
+	    <a href="#" class="nav-close">
+	        <span class="hidden">Close</span>
+	    </a>
+	    <ul>
+	        {% assign pages_list = site.pages %}
+	        {% assign group = 'navigation' %}
+
+	        {% for node in site.pages %}
+	          {% if group == null or group == node.group %}
+	            {% if page.url == node.url %}
+	              <li class="nav-current"><a href="{{node.url}}" class="active page-link">{{node.title}}</a></li>
+	            {% else %}
+	              <li><a class="page-link" href="{{node.url}}">{{node.title}}</a></li>
+	            {% endif %}
+	          {% endif %}
+	        {% endfor %}
+
+	        {% assign pages_list = nil %}
+	        {% assign group = nil %}
+	    </ul>
+	</div>
+	<span class="nav-cover"></span>
+	<!-- -->

@@ -1,7 +1,7 @@
 /* ==========================================================================
    Table of Contents
    ========================================================================== */
-
+p
 /*
     0.  Normalize
     1.  Icons
@@ -183,9 +183,9 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: "Merriweather", serif;
-    letter-spacing: 0.01rem;
-    font-size: 1.8rem;
+    font-family: 'Raleway', 'Open Sans', "Merriweather", serif;
+    letter-spacing: 0.05rem;
+    font-size: 1.5rem;
     line-height: 1.75em;
     color: #3A4145;
     -webkit-font-feature-settings: 'kern' 1;
@@ -210,18 +210,22 @@ h4, h5, h6 {
     color: #2E2E2E;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Raleway", "Open Sans", sans-serif;
     text-rendering: geometricPrecision;
+    font-weight: 400;
 }
 
 h1 {
-    font-size: 5rem;
-    letter-spacing: -2px;
-    text-indent: -3px;
+  font-family: Raleway;
+  font-weight: 300;
+  font-size: 5rem;
+  letter-spacing: -2px;
+  text-indent: -3px;
 }
 
 h2 {
-    font-size: 3.6rem;
+    /*font-size: 3.1rem;*/
+    font-size: 2.8rem;
     letter-spacing: -1px;
 }
 
@@ -254,12 +258,13 @@ p, ul, ol, dl {
     -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
-    margin: 0 0 1.75em 0;
+      margin: 0em 0 1.75em 0;
     text-rendering: geometricPrecision;
 }
 
 ol, ul {
     padding-left: 3rem;
+    list-style-type: square;
 }
 
 ol ol, ul ul,
@@ -286,7 +291,7 @@ dl dd {
 }
 
 li {
-    margin: 0.4em 0;
+      margin: 0.5em 0;
 }
 
 li li {
@@ -504,7 +509,7 @@ body.nav-opened .site-wrapper {
     height: 100vh;
     margin-bottom: 5rem;
     text-align: center;
-    background: #222 no-repeat center center;
+    background: #FFF no-repeat center center;
     background-size: cover;
     overflow: hidden;
 }
@@ -784,7 +789,7 @@ h3.nav-title img {
     padding: 1px 0 5px 0;
     width: auto;
 }
-
+/*MENU-BUTTON*/
 .menu-button {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -815,6 +820,39 @@ h3.nav-title img {
     background: #fff;
 }
 .menu-button:focus {
+    outline: 0;
+}
+/*MENU SHOW*/
+.menu-show {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    height: 38px;
+    padding: 0 15px;
+    border-style: solid;
+    border-width: 1px;
+    opacity: 1;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 35px;
+    white-space: nowrap;
+    border-radius: 3px;
+    transition: all 0.5s ease;
+}
+.menu-show:before {
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 6px;
+    position: relative;
+    top: 1px;
+}
+.menu-show:hover {
+    background: #fff;
+}
+.menu-show:focus {
     outline: 0;
 }
 
@@ -913,6 +951,7 @@ div#logo .logo{
 }
 .page-title {
   font-family: 'Raleway',"Open Sans", sans-serif;
+  letter-spacing: 1.1px;
   font-weight: 300;
   font-size: 47px;
   margin: 4px 0 0px 0;
@@ -1365,7 +1404,7 @@ body:not(.post-template) .post-title {
 /* Location, website, and link */
 .author-profile .author-meta {
     margin: 2rem 0;
-    font-family: "Merriweather", serif;
+    font-family: "Open Sans", serif;
     letter-spacing: 0.01rem;
     font-size: 1.7rem;
 }
@@ -2173,4 +2212,257 @@ body:not(.post-template) .post-title {
 100%{transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg);-moz-transform:rotate(360deg);-webkit-transform:rotate(360deg)}
 }@keyframes rotate{0%{transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);-moz-transform:rotate(0);-webkit-transform:rotate(0)}
 100%{transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg);-moz-transform:rotate(360deg);-webkit-transform:rotate(360deg)}
+}
+
+/*FIXES*/
+a, a:focus, a:active {
+    outline: 0 none;
+    -moz-outline: 0 none;
+    text-decoration: none;
+}
+a:focus, a:hover{
+    text-decoration: none;
+}
+
+
+i.fa.fa-paint-brush {
+  font-size: 23px;
+  /*content: "";*/
+  padding: 0px 1px;
+}
+
+i.fa.fa-cogs {
+  padding: 0 1px;
+  font-size: 29px;
+}
+
+span.key {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: raleway;
+  vertical-align: top;
+  padding: 0 2px 0 2px;
+}
+.services {
+  margin: 0 0 3.7em 0;
+}
+
+
+
+/*SKILLS*/
+* {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    -moz-border-radius: 0px !important; /* Firefox */  
+    -webkit-border-radius: 0px !important; /* Safari, Chrome */  
+    border-radius: 0px !important; /* CSS3 */      
+}
+
+body {
+    /*background: #ededed;*/
+    /*background: #DE4D48;*/
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    /*max-width: 960px;*/
+    width: 100%;
+    margin: 0 auto;
+}
+
+.skillset {
+    margin-top: 1px;
+}
+
+.skill-lockup {
+    max-width: 450px;
+    width: 100%;
+    float: left;
+    margin-right: 40px;
+}
+
+.mr {
+    margin-right: 0;
+}
+
+.mb {
+    margin-bottom: 5px;
+}
+
+.skill-info {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.skill-name {
+    float: left;
+    color: #666;
+}
+
+.skill-status {
+    float: right;
+    color: #c4c4c4;
+    font-size: .8em;
+}
+.skill-bar {
+    display: block;
+    max-width: 450px;
+    width: 100%;
+    height: 5px;
+    background: #e3e3e5;
+    clear: both;
+    margin: 20px 0;
+}
+
+.skill-level {
+    display: table;
+    height: 5px;
+}
+.communication, .planning,
+.learning, .programming,
+.visual-design, .ux-design {
+    /*background: #c6a60e;*/
+    background: #de4d48;
+}
+
+.communication {
+    width: 40%;
+    -webkit-animation: communication 10s linear;
+    animation: communication 10s linear;
+}
+
+.planning {
+    width: 15%;
+    -webkit-animation: planning 10s linear;
+    animation: planning 10s linear;
+}
+
+.learning {
+    width: 45%;
+    -webkit-animation: learning 10s linear;
+    animation: learning 10s linear;
+}
+
+.programming {
+    width: 30%;
+    -webkit-animation: programming 10s linear;
+    animation: programming 10s linear;
+}
+
+.visual-design {
+    width: 20%;
+    -webkit-animation: visual-design 10s linear;
+    animation: visual-design 10s linear;
+}
+
+.ux-design {
+    width: 10%;
+    -webkit-animation: ux-design 10s linear;
+    animation: ux-design 10s linear;
+}
+
+
+/*-----------------------
+        Animations 
+-------------------------*/ 
+@-webkit-keyframes communication {
+    from { width: 0%; }
+    to { width: 40%; }
+}
+
+@keyframes communication {
+    from { width: 0%; }
+    to { width: 40%; }
+}
+
+/*-----------------------
+    Planning Animation 
+-------------------------*/
+@-webkit-keyframes planning {
+    from { width: 0%; }
+    to { width: 15%; }
+}
+
+@keyframes planning {
+    from { width: 0%; }
+    to { width: 15%; }
+}
+
+/*-----------------------
+    Learning Animation 
+-------------------------*/ 
+@-webkit-keyframes learning {
+    from { width: 0%; }
+    to { width: 45%; }
+}
+
+@keyframes learning {
+    from { width: 0%; }
+    to { width: 45%; }
+}
+
+/*-----------------------
+  Programming Animation 
+-------------------------*/ 
+@-webkit-keyframes programming {
+    from { width: 0%; }
+    to { width: 30%; }
+}
+
+@keyframes programming {
+    from { width: 0%; }
+    to { width: 30%; }
+}
+
+/*-----------------------
+Visual-Design Animation  
+-------------------------*/ 
+@-webkit-keyframes visual-design {
+    from { width: 0%; }
+    to { width: 20%; }
+}
+
+@keyframes visual-design {
+    from { width: 0%; }
+    to { width: 20%; }
+}
+
+/*-----------------------
+   UX-Design Animation  
+-------------------------*/ 
+@-webkit-keyframes ux-design {
+    from { width: 0%; }
+    to { width: 10%; }
+}
+
+@keyframes ux-design {
+    from { width: 0%; }
+    to { width: 10%; }
+}
+
+
+/*-----------------------
+      Media queries
+-------------------------*/ 
+
+
+@media screen and (max-width: 955px) {
+    .skillset {
+        padding: 20px;
+    }
+    .skill-lockup {
+        max-width: 700px;
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .skill-bar {
+        max-width: 700px;
+        width: 100%;
+    }
 }
