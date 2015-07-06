@@ -7,7 +7,7 @@ permalink: /contacta/
 group: "navigation"
 ---
 
-<div id="contacta" class="bloc">
+
 <h2>Contacta Conmigo<br></h2>
 
 <ul class="list-unstyled">

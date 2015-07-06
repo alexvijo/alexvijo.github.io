@@ -4,7 +4,7 @@ title: "sobre mi"
 image:
     feature: image-12.jpg
 permalink: /sobremi/
-<!-- group: "navigation" -->
+group: "navigation"
 ---
 
 <h2>¿QUE TAL?</h2>
@@ -40,14 +40,12 @@ permalink: /sobremi/
 					</div><!-- communication end -->
 
 					<div class="skill-lockup mr">
-						<span class="skill-name mb">php mysql zend symfony wordpress woocommerce</span><span class="skill-status">70%</span>
-						<span class="skill-bar">
-							<span class="skill-level planning"></span>
-						</span>
+						<span class="skill-name mb">php mysql zend symfony wordpress woocommerce</span><span class="skill-status">65%</span>
+						<span class="skill-bar"><span class="skill-level planning"></span></span>
 					</div><!-- planning end -->
 
 					<div class="skill-lockup">
-						<span class="skill-name mb">npm bower grunt/gulp</span><span class="skill-status">45%</span>
+						<span class="skill-name mb">node bower gulp</span><span class="skill-status">70%</span>
 						<span class="skill-bar">
 							<span class="skill-level learning"></span>
 						</span>
@@ -60,19 +58,21 @@ permalink: /sobremi/
 						</span>
 					</div><!-- programming end -->
 
+					<div class="skill-lockup mr">
+						<span class="skill-name mb">js jquery angularjs reactjs ionic phonegap</span><span class="skill-status">70%</span>
+						<span class="skill-bar">
+							<span class="skill-level ux-design"></span>
+						</span>
+					</div><!-- ux-design end -->					
+
 					<div class="skill-lockup">
-						<span class="skill-name mb">Git unix basics</span><span class="skill-status">20%</span>
+						<span class="skill-name mb">git unix basics</span><span class="skill-status">50%</span>
 						<span class="skill-bar">
 							<span class="skill-level visual-design"></span>
 						</span>
 					</div><!-- visual-design end -->
 
-					<div class="skill-lockup mr">
-						<span class="skill-name mb">angularjs reactjs ionic phonegap</span><span class="skill-status">10%</span>
-						<span class="skill-bar">
-							<span class="skill-level ux-design"></span>
-						</span>
-					</div><!-- ux-design end -->
+
 
 					<div class="skill-lockup mr">
 						<span class="skill-name mb">graphic design - ux - ui </span><span class="skill-status">50%</span>
