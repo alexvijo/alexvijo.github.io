@@ -1,6 +1,6 @@
 ---
 layout: page
-title: contacta
+title: contactar
 image:
     feature: image-13.jpg
 permalink: /contacta/
@@ -8,7 +8,8 @@ group: "navigation"
 ---
 
 <div id="contacta" class="bloc">
-<h2>Contacta Conmigo</h2>
+<h2>Contacta Conmigo<br></h2>
+
 <ul class="list-unstyled">
   <li><a href="https://es.linkedin.com/in/alexvicente"><i class="fa fa-linkedin"></i> linkedin.com/in/alexvicente</a></li>
   <li><a href=""><i class="fa fa-envelope"></i> alexvicentejose@gmail.com</a></li>

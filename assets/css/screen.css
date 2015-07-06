@@ -2330,13 +2330,13 @@ body {
 }
 
 .communication {
-    width: 40%;
+    width: 90%;
     -webkit-animation: communication 10s linear;
     animation: communication 10s linear;
 }
 
 .planning {
-    width: 15%;
+    width: 70%;
     -webkit-animation: planning 10s linear;
     animation: planning 10s linear;
 }
