@@ -15,11 +15,10 @@ group: "navigation"
   <li><a href=""><i class="fa fa-envelope"></i> alexvicentejose@gmail.com</a></li>
   <li><a href="telto:+34622337329"><i class="fa fa-whatsapp"></i> +34 622 33 73 29</a></li>
 </ul>
-</div>
 
+<br>
 
-<!-- <h2 class="">Envíame un mensaje,<br> pídeme un presupuesto<br>o cuentame como te puedo ayudar.<br>&#9827;</h2> -->
-
+<h2 class="">Envíame un mensaje</h2>
 
 
 <div class="show-form">

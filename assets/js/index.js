@@ -20,6 +20,13 @@
             $("body").toggleClass("nav-opened nav-closed");
         });
 
+        // $('.project-image img').matchHeight({
+        //     // byRow: true,
+        //     // property: 'height',
+        //     target: $('.project'),
+        //     // remove: false
+        // });
+
     });
 
     // Arctic Scroll by Paul Adam Davis

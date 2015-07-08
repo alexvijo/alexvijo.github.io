@@ -1,0 +1,22 @@
+{
+  "name": "alexvijo",
+  "version": "0.0.0",
+  "homepage": "https://github.com/alexvijo/alexvijo.github.io",
+  "authors": [
+    "alexvijo <alexvicentejose@gmail.com>"
+  ],
+  "description": "personal web",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "matchHeight": "~0.6.0"
+  },
+  "devDependencies": {
+  }
+}

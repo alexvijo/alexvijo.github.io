@@ -10,58 +10,88 @@ group: "navigation"
 	<row>
 		<div class="col-xs-6 col-sm-4">
 			<div class="project">
-				<a href="">
-					<img class="project-image img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP3j_b2VEPfrr-3w8CgxmocVqzj67_1rouNdbxZU5d5Q1rzpimcw">
-					<div class="project-title">proyecto</div>
-				</a>
-			</div>	
-		</div>
-		<div class="col-xs-6 col-sm-4">
-			<div class="project">
-				<a href="">
-					<img class="project-image img-responsive" src="http://www.srperro.com/sites/default/files/imagecache/580x400up/fotDOCUMENTAL%20FEBREROwaggingtale_0.jpg">
-					<div class="project-title">proyecto</div>
+				<a href="http://februarythedocumentary.com" target="_blank">
+					<div class="project-image">
+						<img class="img-responsive" src="{{site.url}}/assets/img/febrero.jpg">
+					</div>
+					<div class="project-title">febrero el documental</div>
 				</a>
 			</div>
 		</div>
+
 		<div class="col-xs-6 col-sm-4">
 			<div class="project">
-				<a href="">
-					<img class="project-image img-responsive" src="http://retol-retols.com/wp-content/uploads/2012/06/foti-home-0-ninia.jpg">
+				<a href="http://dosdevideo.com/" target="_blank">
+					<div class="project-image">
+						<img class="img-responsive" src="{{site.url}}/assets/img/dos.jpg">
+					</div>
+					<div class="project-title">dos de video</div>
+				</a>
+			</div>
+		</div>	
+
+		<div class="col-xs-6 col-sm-4">
+			<div class="project">
+				<a href="http://waggingtale.org/" target="_blank">
+					<div class="project-image ">
+						<img class="img-responsive" src="{{site.url}}/assets/img/waggingtale.jpg">
+					</div>
+					<div class="project-title">waggingtale films</div>
+				</a>
+			</div>
+		</div>				
+
+		<div class="col-xs-6 col-sm-4">
+			<div class="project">
+				<a href="http://desavia.es" target="_blank">
+					<div class="project-image">
+						<img class="img-responsive" src="{{site.url}}/assets/img/desavia.jpg">
+					</div>	
+					<div class="project-title">desavia.es</div>
+				</a>
+			</div>	
+		</div>
+
+		<div class="col-xs-6 col-sm-4">
+			<div class="project">
+				<a href="http://retol-retols.com" target="_blank">
+					<div class="project-image">
+						<img class="img-responsive" src="{{site.url}}/assets/img/retols.jpg">
+					</div>
 					<div class="project-title">retol retols</div>
 				</a>
 			</div>
 		</div>
 		<div class="col-xs-6 col-sm-4">
 			<div class="project">
-				<a href="">
-					<img class="project-image img-responsive" src="http://palouijounou.com/assets/images/carrer-castell-para-web.jpg">assesoria jutidica</div>
+				<a href="http://palouijounou.com" target="_blank">
+					<div class="project-image ">
+						<img class="img-responsive" src="{{site.url}}/assets/img/palou.jpg"></div>
+					</div>
+					<div class="project-title">assesoria jutidica</div>
 				</a>
 			</div>
 		</div>
 		<div class="col-xs-6 col-sm-4">
 			<div class="project">
 				<a href="http://www.audreycortes.com/" target="_blank">
-					<img class="project-image img-responsive" src="http://lh3.googleusercontent.com/-X47XPqSKcK4/VQ7wtQo-xGI/AAAAAAAAABQ/_iettxucQ70/s640/image%25252038.jpg">
+					<div class="project-image ">
+						<img class="img-responsive" src="{{site.url}}/assets/img/audrey.jpg">
+					</div>
 					<div class="project-title">audrey cortes</div>
 				</a>
 			</div>
 		</div>
+
 		<div class="col-xs-6 col-sm-4">
 			<div class="project">
-				<a href="">
-					<img class="project-image img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP3j_b2VEPfrr-3w8CgxmocVqzj67_1rouNdbxZU5d5Q1rzpimcw">
-					<div class="project-title">proyecto</div>
+				<a href="https://play.google.com/store/apps/details?id=com.semfyc.guiaterappeutica&hl=es" target="_blank">
+					<div class="project-image ">
+						<img class="img-responsive" src="{{site.url}}/assets/img/app.jpg">
+					</div>
+					<div class="project-title">APP Guía Terappéutica (semFYC)</div>
 				</a>
 			</div>
-		</div>
-		<div class="col-xs-6 col-sm-4">
-			<div class="project">
-				<a href="http://waggingtale.org/" target="_blank">
-					<img class="project-image img-responsive" src="http://waggingtale.org/wp-content/uploads/2015/04/waggingtale-film-design-for-good-11.jpg">
-					<div class="project-title">waggingtale films</div>
-				</a>
-			</div>
-		</div>				
+		</div>						
 	</row>
 </div>	
