@@ -291,7 +291,7 @@ dl dd {
 }
 
 li {
-      margin: 0.5em 0;
+    margin: 0.5em 0 0.5em 0.2em;
 }
 
 li li {
@@ -660,7 +660,7 @@ h3.nav-title img {
     line-height: 1.4;
     font-size: 1.4rem;
     display: block;
-    padding: 0.6rem 4%;
+    padding: 0.8rem 4%;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -1014,14 +1014,14 @@ div#logo .logo{
     max-width: 710px;
     margin: 4rem auto;
     padding-bottom: 4rem;
-    border-bottom: #EBF2F6 1px solid;
+    /*border-bottom: #EBF2F6 1px solid;*/
     word-wrap: break-word;
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
    just for the lolz and stylepoints. */
 .post:after {
-    display: block;
+/*    display: block;
     content: "";
     width: 7px;
     height: 7px;
@@ -1032,7 +1032,7 @@ div#logo .logo{
     margin-left: -5px;
     background: #FFF;
     border-radius: 100%;
-    box-shadow: #FFF 0 0 0 5px;
+    box-shadow: #FFF 0 0 0 5px;*/
 }
 
 body:not(.post-template) .post-title {
@@ -2275,6 +2275,9 @@ a, a:focus, a:active {
 a:focus, a:hover{
     text-decoration: none;
 }
+.form-group {
+  line-height: 0;
+}
 /*.main-header {
     opacity:0 !important;
     -moz-transition: opacity 2s !important; 
@@ -2293,6 +2296,14 @@ i.fa.fa-paint-brush {
 i.fa.fa-cogs {
   padding: 0 1px;
   font-size: 29px;
+}
+
+i.fa.fa-whatsapp {
+  font-size: 19px;
+}
+
+i.fa.fa-skype {
+  font-size: 21px;
 }
 
 span.key {
@@ -2381,41 +2392,45 @@ body {
     display: table;
     height: 5px;
 }
-.communication, .planning,
-.learning, .programming,
-.visual-design, .ux-design {
+.css, 
+.node,
+.php, 
+.bootstrap,
+.javascript, 
+.ux-design {
     /*background: #c6a60e;*/
     background: #de4d48;
 }
 
-.communication {
+
+.css {
     width: 90%;
-    -webkit-animation: communication 10s linear;
-    animation: communication 10s linear;
+    -webkit-animation: cssanim 10s linear;
+    animation: cssanim 10s linear;
 }
 
-.planning {
+.node {
+    width: 75%;
+    -webkit-animation: node 10s linear;
+    animation: node 10s linear;
+}
+
+.php {
+    width: 65%;
+    -webkit-animation: php 10s linear;
+    animation: php 10s linear;
+}
+
+.bootstrap {
     width: 70%;
-    -webkit-animation: planning 10s linear;
-    animation: planning 10s linear;
+    -webkit-animation: bootstrap 10s linear;
+    animation: bootstrap 10s linear;
 }
 
-.learning {
-    width: 45%;
-    -webkit-animation: learning 10s linear;
-    animation: learning 10s linear;
-}
-
-.programming {
-    width: 30%;
-    -webkit-animation: programming 10s linear;
-    animation: programming 10s linear;
-}
-
-.visual-design {
-    width: 20%;
-    -webkit-animation: visual-design 10s linear;
-    animation: visual-design 10s linear;
+.javascript {
+    width: 70%;
+    -webkit-animation: javascript 10s linear;
+    animation: javascript 10s linear;
 }
 
 .ux-design {
@@ -2426,82 +2441,40 @@ body {
 
 
 /*-----------------------
-        Animations 
--------------------------*/ 
-@-webkit-keyframes communication {
-    from { width: 0%; }
-    to { width: 40%; }
-}
-
-@keyframes communication {
-    from { width: 0%; }
-    to { width: 40%; }
-}
-
-/*-----------------------
-    Planning Animation 
+        css Animations 
 -------------------------*/
-@-webkit-keyframes planning {
-    from { width: 0%; }
-    to { width: 15%; }
-}
-
-@keyframes planning {
-    from { width: 0%; }
-    to { width: 15%; }
-}
+@-webkit-keyframes cssanim { from { width: 0%; } to { width: 90%; } }
+@keyframes cssanim { from { width: 0%; } to { width: 90%; } }
 
 /*-----------------------
-    Learning Animation 
--------------------------*/ 
-@-webkit-keyframes learning {
-    from { width: 0%; }
-    to { width: 45%; }
-}
-
-@keyframes learning {
-    from { width: 0%; }
-    to { width: 45%; }
-}
+    node Animation 
+-------------------------*/
+@-webkit-keyframes node { from { width: 0%; } to { width: 75%; } }
+@keyframes node { from { width: 0%; } to { width: 75%; } }
 
 /*-----------------------
-  Programming Animation 
--------------------------*/ 
-@-webkit-keyframes programming {
-    from { width: 0%; }
-    to { width: 30%; }
-}
+    php Animation 
+-------------------------*/
+@-webkit-keyframes php { from { width: 0%; } to { width: 65%; } }
+@keyframes php { from { width: 0%; } to { width: 65%; } }
 
-@keyframes programming {
-    from { width: 0%; }
-    to { width: 30%; }
-}
+/*-----------------------
+  bootstrap Animation 
+-------------------------*/
+@-webkit-keyframes bootstrap { from { width: 0%; } to { width: 70%; } }
+@keyframes bootstrap { from { width: 0%; } to { width: 70%; } }
 
 /*-----------------------
 Visual-Design Animation  
--------------------------*/ 
-@-webkit-keyframes visual-design {
-    from { width: 0%; }
-    to { width: 20%; }
-}
-
-@keyframes visual-design {
-    from { width: 0%; }
-    to { width: 20%; }
-}
+-------------------------*/
+@-webkit-keyframes javascript { from { width: 0%; } to { width: 70%; } }
+@keyframes javascript { from { width: 0%; } to { width: 70%; } }
 
 /*-----------------------
    UX-Design Animation  
--------------------------*/ 
-@-webkit-keyframes ux-design {
-    from { width: 0%; }
-    to { width: 10%; }
-}
-
-@keyframes ux-design {
-    from { width: 0%; }
-    to { width: 10%; }
-}
+-------------------------*/
+@-webkit-keyframes ux-design { from { width: 0%; } to { width: 10%; } }
+@keyframes ux-design { from { width: 0%; } to { width: 10%; } }
 
 
 /*-----------------------
@@ -2511,7 +2484,7 @@ Visual-Design Animation
 
 @media screen and (max-width: 955px) {
     .skillset {
-        padding: 20px;
+        /*padding: 20px;*/
     }
     .skill-lockup {
         max-width: 700px;

@@ -29,39 +29,42 @@ group: "navigation"
 		</li>
 		<li><p>En el 2008 hice un cambio profesional orientando exclusivamente al desarrollo web. <br>Habilidades:</p>
 
-			<div class="container">
+			<div class="">
 				<div class="skillset">
 
 					<div class="skill-lockup">
-						<span class="skill-name mb">css3 less sass compass templating theming</span><span class="skill-status">90%</span>
+						<span class="skill-name mb">css less sass compass</span><span class="skill-status">90%</span>
 						<span class="skill-bar">
-							<span class="skill-level  communication"></span>
+							<span class="skill-level css"></span>
 						</span>
 					</div><!-- communication end -->
 
+					<div class="skill-lockup">
+						<span class="skill-name mb">node.js bower.js gulp.js</span><span class="skill-status">75%</span>
+						<span class="skill-bar">
+							<span class="skill-level node"></span>
+						</span>
+					</div><!-- learning end -->					
+
 					<div class="skill-lockup mr">
-						<span class="skill-name mb">php mysql zend symfony wordpress woocommerce</span><span class="skill-status">65%</span>
-						<span class="skill-bar"><span class="skill-level planning"></span></span>
+						<span class="skill-name mb">php/mysql zend symfony wordpress</span><span class="skill-status">65%</span>
+						<span class="skill-bar">
+							<span class="skill-level php"></span></span>
 					</div><!-- planning end -->
 
-					<div class="skill-lockup">
-						<span class="skill-name mb">node bower gulp</span><span class="skill-status">70%</span>
-						<span class="skill-bar">
-							<span class="skill-level learning"></span>
-						</span>
-					</div><!-- learning end -->
+
 
 					<div class="skill-lockup mr">
-						<span class="skill-name mb">twbootstrap foundation</span><span class="skill-status">90%</span>
+						<span class="skill-name mb">bootstrap/foundation responsive templating</span><span class="skill-status">70%</span>
 						<span class="skill-bar">
-							<span class="skill-level programming"></span>
+							<span class="skill-level bootstrap"></span>
 						</span>
 					</div><!-- programming end -->
 
 					<div class="skill-lockup mr">
-						<span class="skill-name mb">js jquery angularjs reactjs ionic phonegap</span><span class="skill-status">70%</span>
+						<span class="skill-name mb">javascript jquery angular.js ionic.io phonegap</span><span class="skill-status">70%</span>
 						<span class="skill-bar">
-							<span class="skill-level ux-design"></span>
+							<span class="skill-level javascript"></span>
 						</span>
 					</div><!-- ux-design end -->					
 
