@@ -1,9 +1,3 @@
----
-layout: default
-title: blog
-permalink: /blog/
-<!-- group: "navigation" -->
----
 
 {% for post in paginator.posts %}
     {% include post_list.html %}
