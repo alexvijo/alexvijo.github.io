@@ -2,10 +2,12 @@
 layout: projects
 title: porfolio
 permalink: /portfolio/
-image:
-    feature: interested.png
-group: "navigation"
+image: 
+  feature: interested.png
+group: navigation
+published: true
 ---
+
 <div class="container">
 	<row>
 		<div class="col-xs-6 col-sm-4">
@@ -70,5 +72,13 @@ group: "navigation"
 			</div>
 		</div>	
 
+		<div class="col-xs-6 col-sm-4">
+			<div class="project" style="background-image: url({{site.url}}/assets/img/museu-gava.jpg)">
+				<a class="project-link" href="http://www.patrimonigava.cat/serveipedagogic/" target="_blank">
+					<div class="project-title"><p>museu de Gavà (servei pedagògic)</p></div>
+				</a>
+			</div>
+		</div>	
+
 	</row>
-</div>	
+</div>
