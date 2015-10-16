@@ -5,7 +5,7 @@ permalink: /portfolio/
 image: 
   feature: interested.png
 group: navigation
-published: true
+published: false
 ---
 
 <div class="container">
