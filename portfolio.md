@@ -11,6 +11,13 @@ published: true
 <div class="container">
 	<row>
 		<div class="col-xs-6 col-sm-4">
+			<div class="project" style="background-image: url({{site.url}}/assets/img/expostructures.jpg)">
+				<a class="project-link" href="http://expostructures.kz/" target="_blank">
+					<div class="project-title"><p>expostructures</p></div>
+				</a>
+			</div>
+		</div>	
+		<div class="col-xs-6 col-sm-4">
 			<div class="project" style="background-image: url({{site.url}}/assets/img/febrero.jpg)">
 				<a class="project-link" href="http://februarythedocumentary.com" target="_blank">
 					<div class="project-title"><p>febrero</p></div>
