@@ -42,6 +42,14 @@ published: true
 		</div>				
 
 		<div class="col-xs-6 col-sm-4">
+			<div class="project" style="background-image: url({{site.url}}/assets/img/monaromatic.jpg)">
+				<a class="project-link" href="http://monaromatic.cat/" target="_blank">
+					<div class="project-title"><p>monaromàtic</p></div>
+				</a>
+			</div>
+		</div>	
+
+		<div class="col-xs-6 col-sm-4">
 			<div class="project" style="background-image: url({{site.url}}/assets/img/desavia.jpg)">
 				<a class="project-link" href="http://desavia.es" target="_blank">
 					<div class="project-title"><p>desavia</p></div>
