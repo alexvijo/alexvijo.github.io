@@ -7,28 +7,6 @@ permalink: /contacta/
 group: "navigation"
 ---
 
-<svg id="radar-circle">
-  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="16px" stroke-opacity="0.4">
-    <animate attributeName="r" from="0" to="1220" dur="6s" repeatCount="indefinite" begin="0.25s" />
-  </circle>
-  
-  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="12px" stroke-opacity="0.4">
-    <animate attributeName="r" from="0" to="1220" dur="6s" repeatCount="indefinite" begin="1.25s" />
-  </circle>
-  
-  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="8px" stroke-opacity="0.4">
-    <animate attributeName="r" from="0" to="1220" dur="6s" repeatCount="indefinite" begin="2.25s" />
-  </circle>
-  
-  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="4px" stroke-opacity="0.4">
-    <animate attributeName="r" from="0" to="1220" dur="6s" repeatCount="indefinite" begin="3.25s" />
-  </circle>
-  
-  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="0.4">
-    <animate attributeName="r" from="0" to="1220" dur="6s" repeatCount="indefinite" begin="4.25s" />
-  </circle>
-</svg>
-
 <h2>Contacta Conmigo<br></h2>
 
 <ul class="list-unstyled">
@@ -40,7 +18,7 @@ group: "navigation"
 
 <br>
 
-<h2 class="">Escríbeme directamente</h2>
+<h2 class="">...o escríbeme directamente</h2>
 
 <div class="show-form">
 <form method="POST" action="http://formspree.io/alexvicentejose@gmail.com">
