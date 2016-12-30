@@ -9,18 +9,18 @@ group: "navigation"
 
 <h2>Contacta Conmigo<br></h2>
 
-<ul class="list-unstyled">
-  <li><a href="https://es.linkedin.com/in/alexvicente"><i class="fa fa-linkedin"></i> linkedin.com/in/alexvicente</a></li>
-  <li><a href=""><i class="fa fa-envelope"></i> alexvicentejose@gmail.com</a></li>
-  <li><a href="telto:+34622337329"><i class="fa fa-whatsapp"></i> +34 622 33 73 29</a></li>
-  <li><a onclick="return skypeCheck();" href="skype:alexvijo?call"><i class="fa fa-skype"></i> 'alexvijo' en skype</a></li>
+<ul class="list-unstyled text-center">
+  <li><a href="https://es.linkedin.com/in/alexvicente">linkedin.com/in/alexvicente</a></li>
+  <li><a href="">alexvicentejose@gmail.com</a></li>
+  <li><a href="telto:+34644720496">+34 644 72 04 96</a></li>
+  <li><a onclick="return skypeCheck();" href="skype:alexvijo?call">'alexvijo' en skype</a></li>
 </ul>
 
 <br>
 
 <h2 class="">...o escríbeme directamente</h2>
 
-<div class="show-form">
+<div class="show-form text-center">
 <form method="POST" action="http://formspree.io/alexvicentejose@gmail.com">
   <div class="form-group">
     <input type="text" name="name" placeholder="tu nombre" class="form-control">
