@@ -6,7 +6,7 @@ cover: image-10.jpg #header.jpg
 logo: logo100.png
 baseurl: "" # the subpath of your site, e.g. /blog/
 permalink: /:title # Permalink structure
-url: "http://alexvijo.com" # "http://localhost:4000"# the base hostname & protocol for your site
+url: "http://alexvijo.github.io" # "http://localhost:4000"# the base hostname & protocol for your site
 paginate: 5 # Number of posts per page
 paginate_path: page/:num #Permalink structure for pagination
 
@@ -16,7 +16,7 @@ author: # You can invoke these via {{ site.author.NAME }}
     bio: >
         Hello world! This is a short bio of who I am, what I'm doing and how awesome I am. # Short and sweet about you
     location: Barcelona # Where you live (accuracy not guaranteed)
-    home: http://alexvijo.com # Your website, must include http:// otherwise Jekyll thinks it's an internal link
+    home: http://alexvijo.github.io/ # Your website, must include http:// otherwise Jekyll thinks it's an internal link
 
 # Build settings
 markdown: kramdown
