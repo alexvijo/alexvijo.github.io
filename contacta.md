@@ -55,6 +55,12 @@ group: "navigation"
   </form>
 </div>
 
+<form method="POST" action="http://formspree.io/alexvicentejose@gmail.com">
+  <input type="email" name="email" placeholder="tu dirección email">
+  <textarea name="message" placeholder="tu mensaje o sugerencia"></textarea>
+  <button type="submit">Enviar</button>
+</form>
+
 <script>
 
 
