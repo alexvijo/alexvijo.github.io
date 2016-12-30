@@ -7,17 +7,27 @@ permalink: /contacta/
 group: "navigation"
 ---
 
-<!-- <h1>radio waves</h1>
-<div class="robot">
-    <div class="background-circle"></div>
-<section class="layer waves">
-  <div class="little radio-wave"></div>
-  <div class="medium radio-wave"></div>
-  <div class="big radio-wave"></div>
-  <div class="left-triangle"></div>
-  <div class="right-triangle"></div>
-</section>
-</div> -->
+<svg id="radar-circle">
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="16px" stroke-opacity="0.4">
+    <animate attributeName="r" from="0" to="1220" dur="6s" repeatCount="indefinite" begin="0.25s" />
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="12px" stroke-opacity="0.4">
+    <animate attributeName="r" from="0" to="1220" dur="6s" repeatCount="indefinite" begin="1.25s" />
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="8px" stroke-opacity="0.4">
+    <animate attributeName="r" from="0" to="1220" dur="6s" repeatCount="indefinite" begin="2.25s" />
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="4px" stroke-opacity="0.4">
+    <animate attributeName="r" from="0" to="1220" dur="6s" repeatCount="indefinite" begin="3.25s" />
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="0.4">
+    <animate attributeName="r" from="0" to="1220" dur="6s" repeatCount="indefinite" begin="4.25s" />
+  </circle>
+</svg>
 
 <h2>Contacta Conmigo<br></h2>
 
