@@ -56,9 +56,16 @@ group: "navigation"
 </div>
 
 <form method="POST" action="http://formspree.io/alexvicentejose@gmail.com">
-  <input type="email" name="email" placeholder="tu dirección email">
-  <textarea name="message" placeholder="tu mensaje o sugerencia"></textarea>
-  <button type="submit">Enviar</button>
+  <div class="form-group">
+    <input type="text" name="name" placeholder="tu nombre" class="form-control">
+  </div>
+  <div class="form-group">
+    <input type="email" name="email" placeholder="tu dirección email" class="form-control">
+  </div>
+  <div class="form-group">
+    <textarea name="message" placeholder="tu mensaje o sugerencia" class="form-control"></textarea>
+  </div>
+  <button type="submit" class="btn btn-default">Enviar</button>
 </form>
 
 <script>
