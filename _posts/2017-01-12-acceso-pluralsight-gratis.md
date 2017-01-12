@@ -1,5 +1,10 @@
 ---
-published: false
+layout: post
+title: "Pluralsight"
+date: 2014-08-31 16:47:13
+categories: jekyll
+tags: [Pluralsight, cursos]
+published: true
 ---
 ## Como obtener acceso gratuito a cursos Pluralsight (3 meses)
 

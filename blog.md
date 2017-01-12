@@ -1,3 +1,9 @@
+---
+layout: page
+title: contactar
+permalink: /recursos/
+group: "navigation"
+---
 
 {% for post in paginator.posts %}
     {% include post_list.html %}
