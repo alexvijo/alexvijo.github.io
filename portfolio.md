@@ -49,7 +49,7 @@ published: true
 		</div>
 
 		<div class="col-xs-6 col-sm-4 col-md-3">
-			<div class="project" style="background-image: url({{site.url}}/assets/img/clinica-online.jpg)">
+			<div class="project" style="background-image: url({{site.url}}/assets/img/clinicaonline.JPG)">
 				<a class="project-link" href="https://www.mutuauniversal.net/es/servicios/modelo-asistencial/servicios-excelentes-de-medicina-avanzada/clinica-online/" target="_blank">
 					<div class="project-title"><p>clínica online</p></div>
 				</a>

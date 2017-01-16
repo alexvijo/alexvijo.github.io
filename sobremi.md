@@ -33,14 +33,14 @@ group: "navigation"
 				<div class="skillset">
 
 					<div class="skill-lockup">
-						<span class="skill-name mb">css less sass compass</span><span class="skill-status">90%</span>
+						<span class="skill-name mb">css sass</span><span class="skill-status">90%</span>
 						<span class="skill-bar">
 							<span class="skill-level css"></span>
 						</span>
 					</div><!-- communication end -->
 
 					<div class="skill-lockup">
-						<span class="skill-name mb">node.js bower.js gulp.js</span><span class="skill-status">75%</span>
+						<span class="skill-name mb">node bower gulp grunt</span><span class="skill-status">75%</span>
 						<span class="skill-bar">
 							<span class="skill-level node"></span>
 						</span>
@@ -55,21 +55,21 @@ group: "navigation"
 
 
 					<div class="skill-lockup mr">
-						<span class="skill-name mb">bootstrap/foundation responsive templating</span><span class="skill-status">70%</span>
+						<span class="skill-name mb">bootstrap/foundation</span><span class="skill-status">70%</span>
 						<span class="skill-bar">
 							<span class="skill-level bootstrap"></span>
 						</span>
 					</div><!-- programming end -->
 
 					<div class="skill-lockup mr">
-						<span class="skill-name mb">javascript jquery angular.js ionic.io phonegap</span><span class="skill-status">70%</span>
+						<span class="skill-name mb">javascript jquery angular ionic apacheCordova</span><span class="skill-status">70%</span>
 						<span class="skill-bar">
 							<span class="skill-level javascript"></span>
 						</span>
 					</div><!-- ux-design end -->					
 
-					<div class="skill-lockup">
-						<span class="skill-name mb">git unix basics</span><span class="skill-status">50%</span>
+					<div class="skill-lockup mr">
+						<span class="skill-name mb">git unix basics</span><span class="skill-status">60%</span>
 						<span class="skill-bar">
 							<span class="skill-level visual-design"></span>
 						</span>
