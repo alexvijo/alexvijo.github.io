@@ -2,9 +2,12 @@
 layout: page
 title: contactar
 permalink: /recursos/
+image:
+    feature: sketching.jpg
 group: "navigation"
 ---
 
+Recursos...
 {% for post in paginator.posts %}
     {% include post_list.html %}
 {% endfor %}
