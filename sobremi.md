@@ -13,7 +13,7 @@ group: "navigation"
 	<ul>
 		<li><p>Mi nombre es Alex Vicente. Barcelona 1978. Desarrollo con tecnologías web. Freelance. </p></li>
 		<li>
-			<p>Me apasiona la programación, el diseño y el dar con soluciones creativas a cualquier problema (...también echo mano de <code>stackoverflow</code>. ) Soy el cúmulo de muchas habilidades y talentos. Me gusta pensar de manera disruptiva y retarme a mi mismo. Solo me entrego totalmente a proyectos que de verdad me interesan. Creo que el valor de lo que hago se basa en el impacto que tiene sobre el negocio de mi cliente.</p>
+			<p>Me apasiona la programación, el diseño y el dar con soluciones creativas a cualquier problema (...también echo mano de <code>stackoverflow, css-tricks, caniuse...</code>. ) Soy el cúmulo de muchas habilidades y talentos. Me gusta pensar de manera disruptiva y retarme a mi mismo. Solo me entrego totalmente a proyectos que de verdad me interesan. Creo que el valor de lo que hago se basa en el impacto que tiene sobre el negocio de mi cliente.</p>
 		</li>
 		<li>
 			<p>Me gusta seguir aprendiendo (incluso en festivos!). Siento curiosidad por nuevas herramientas, frameworks y diferentes lenguajes de programación. Tengo una especie de adicción por los <code>videotutoriales</code>. También por algunos <code>podcasts</code>. Tengo el vicio de inspeccionar el <code>código fuente</code> de muchas páginas que visito.</p>
@@ -69,9 +69,9 @@ group: "navigation"
 					</div><!-- ux-design end -->					
 
 					<div class="skill-lockup mr">
-						<span class="skill-name mb">git unix basics</span><span class="skill-status">60%</span>
+						<span class="skill-name mb">git unix basics</span><span class="skill-status">65%</span>
 						<span class="skill-bar">
-							<span class="skill-level visual-design"></span>
+							<span class="skill-level php"></span>
 						</span>
 					</div><!-- visual-design end -->
 
