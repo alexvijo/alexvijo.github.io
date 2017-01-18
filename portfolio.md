@@ -128,5 +128,13 @@ published: true
 			</div>
 		</div>	
 
+		<div class="col-xs-6 col-sm-4 col-md-3">
+			<div class="project" style="background-image: url({{site.url}}/assets/img/eae.jpg)">
+				<a class="project-link" href="http://eae.es" target="_blank">
+					<div class="project-title"><p>EAE (business school)</p></div>
+				</a>
+			</div>
+		</div>	
+
 	</row>
 </div>
