@@ -39,7 +39,16 @@ published: true
 					<div class="project-title"><p>waggingtale films</p></div>
 				</a>
 			</div>
-		</div>				
+		</div>
+
+		<div class="col-xs-6 col-sm-4 col-md-3 col-md-3">
+			<div class="project" style="background-image: url({{site.url}}/assets/img/global.jpg)">
+				<a class="project-link" href="http://globalexhibitions.kz/" target="_blank">
+					<div class="project-title"><p>global exhibitions</p></div>
+				</a>
+			</div>
+		</div>
+
 		<div class="col-xs-6 col-sm-4 col-md-3">
 			<div class="project" style="background-image: url({{site.url}}/assets/img/monaromatic.jpg)">
 				<a class="project-link" href="http://monaromatic.cat/" target="_blank">
