@@ -2176,7 +2176,7 @@ body:not(.post-template) .post-title {
 }
 
 .project {
-  filter: grayscale(100%);
+  filter: grayscale(100%); 
   position: absolute;
   top: 0.5em;
   right: 0.5em;
