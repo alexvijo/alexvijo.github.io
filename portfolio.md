@@ -97,8 +97,16 @@ published: true
 
 		<div class="col-xs-6 col-sm-4 col-md-3">
 			<div class="project" style="background-image: url({{site.url}}/assets/img/app.jpg)">
-				<a class="project-link" href="https://play.google.com/store/apps/details?id=com.semfyc.guiaterappeutica&hl=es" target="_blank">
+				<a class="project-link" href="http://appsespanol.es/iphone-ipad/medicina/guia-terappeutica-lite-bpvtqoh.html" target="_blank">
 					<div class="project-title"><p>guía terappéutica (semFYC App)</p></div>
+				</a>
+			</div>
+		</div>	
+
+		<div class="col-xs-6 col-sm-4 col-md-3">
+			<div class="project" style="background-image: url({{site.url}}/assets/img/leopharma.jpg)">
+				<a class="project-link" href="https://itunes.apple.com/es/app/calculadora-riesgo-etv-en/id847459039?mt=8" target="_blank">
+					<div class="project-title"><p>calculadora de riesgo (Leo Pharma App)</p></div>
 				</a>
 			</div>
 		</div>	

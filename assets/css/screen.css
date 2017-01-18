@@ -2176,6 +2176,7 @@ body:not(.post-template) .post-title {
 }
 
 .project {
+  filter: grayscale(100%);
   position: absolute;
   top: 0.5em;
   right: 0.5em;
@@ -2194,8 +2195,8 @@ body:not(.post-template) .post-title {
     text-decoration: none;
     -webkit-backface-visibility: hidden;
     overflow: hidden;
-    -webkit-transition: 0.2s ease-out;
-    transition: 0.2s ease-out;
+    -webkit-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
 }
 .project-title{
     position: absolute;
@@ -2203,8 +2204,8 @@ body:not(.post-template) .post-title {
     right: 0;
     text-align: center;
     padding: 1em;
-    -webkit-transition: 0.2s ease-out;
-    transition: 0.2s ease-out;
+    -webkit-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
