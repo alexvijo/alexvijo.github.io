@@ -28,65 +28,6 @@ group: "navigation"
 			<p>Disfruto saliendo a correr por las mañanas. Soy como un McGiver en la cocina y bueno con los arreglos domésticos.</p>
 		</li>
 		<li><p>En el 2008 hice un cambio profesional orientando exclusivamente al desarrollo web. <br>Habilidades:</p>
-
-			<div class="">
-				<div class="skillset">
-
-					<div class="skill-lockup">
-						<span class="skill-name mb">css sass</span><span class="skill-status">90%</span>
-						<span class="skill-bar">
-							<span class="skill-level css"></span>
-						</span>
-					</div><!-- communication end -->
-
-					<div class="skill-lockup">
-						<span class="skill-name mb">node bower gulp grunt</span><span class="skill-status">75%</span>
-						<span class="skill-bar">
-							<span class="skill-level node"></span>
-						</span>
-					</div><!-- learning end -->					
-
-					<div class="skill-lockup mr">
-						<span class="skill-name mb">php/mysql zend symfony wordpress</span><span class="skill-status">65%</span>
-						<span class="skill-bar">
-							<span class="skill-level php"></span></span>
-					</div><!-- planning end -->
-
-
-
-					<div class="skill-lockup mr">
-						<span class="skill-name mb">bootstrap/foundation</span><span class="skill-status">70%</span>
-						<span class="skill-bar">
-							<span class="skill-level bootstrap"></span>
-						</span>
-					</div><!-- programming end -->
-
-					<div class="skill-lockup mr">
-						<span class="skill-name mb">javascript jquery angular ionic apacheCordova</span><span class="skill-status">70%</span>
-						<span class="skill-bar">
-							<span class="skill-level javascript"></span>
-						</span>
-					</div><!-- ux-design end -->					
-
-					<div class="skill-lockup mr">
-						<span class="skill-name mb">git unix basics</span><span class="skill-status">65%</span>
-						<span class="skill-bar">
-							<span class="skill-level php"></span>
-						</span>
-					</div><!-- visual-design end -->
-
-
-
-					<div class="skill-lockup mr">
-						<span class="skill-name mb">graphic design - ux - ui </span><span class="skill-status">50%</span>
-						<span class="skill-bar">
-							<span class="skill-level ux-design"></span>
-						</span>
-					</div><!-- ux-design end -->
-
-				</div><!-- skillset end -->
-			</div><!-- container end -->
-
 		</li>
 	</ul>
 </div>
