@@ -3,7 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ site.description }}">
+    <meta name="description" content="Este sitio se ha trasladado a alex-vicente.dev — Alex Vicente, AI Engineer: agentes IA, MCP, RAG y productos con IA en producción.">
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=9" />
@@ -15,6 +15,15 @@
     <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:700,400" /> -->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway:400,300" />
 
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<!-- Sitio archivado: cada pagina redirige a su equivalente en https://alex-vicente.dev -->
+    {% assign new_url = "https://alex-vicente.dev/es/inicio" %}
+    {% if page.url contains "/sobremi" %}{% assign new_url = "https://alex-vicente.dev/es/acerca-de-mi" %}
+    {% elsif page.url contains "/portfolio" %}{% assign new_url = "https://alex-vicente.dev/es/proyectos-propios" %}
+    {% elsif page.url contains "/contacta" or page.url contains "/pideme-un-presupuesto" %}{% assign new_url = "https://alex-vicente.dev/es/contacto" %}
+    {% elsif page.url contains "/blog" or page.url contains "/tag" or page.url contains "/author" or page.layout == "post" %}{% assign new_url = "https://alex-vicente.dev/es/blog" %}
+    {% endif %}
+    <link rel="canonical" href="{{ new_url }}">
+    <meta http-equiv="refresh" content="0; url={{ new_url }}">
+    <script>window.location.replace("{{ new_url }}");</script>
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed.xml">
 </head>
